@@ -60,3 +60,7 @@ fastfetch cannot pad module output to a fixed width, so the right bracket would 
 Each info line is therefore produced by `dota.sh <line>`, which measures the longest line and pads
 every line to that width. CPU and GPU names are read once with fastfetch (`dota-hw.jsonc`) and cached
 in `~/.cache/dota-fastfetch/hw` for a day; RAM and uptime are read live from `/proc`.
+
+## License
+
+[MIT](LICENSE). Dota 2 is a trademark of Valve Corporation; this is a fan-made theme and is not affiliated with Valve.
