@@ -6,7 +6,7 @@ A [fastfetch](https://github.com/fastfetch-cli/fastfetch) config styled like a D
 
 - Dota 2 logo in braille art with a light → dark red diagonal gradient
 - System info as hero stats: **Intelligence** = CPU, **Agility** = RAM, **Strength** = GPU, **Match** = uptime in minutes
-- Attribute lines coloured like in the game (blue / green / red), rank in Archon medal colours
+- Attribute lines coloured like in the game (blue / green / red), rank in the colours of its medal
 - The whole block wrapped in big red brackets
 - Works on any Linux PC: CPU/GPU are detected by fastfetch (Intel, AMD, NVIDIA; the discrete GPU is preferred on laptops), the **Hero** colour follows your distro (Arch, Ubuntu, Debian, Fedora, Mint, Manjaro, openSUSE, EndeavourOS, Pop!_OS, CachyOS, NixOS, Gentoo; others get white → grey)
 
