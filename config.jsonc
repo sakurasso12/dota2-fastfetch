@@ -1,0 +1,70 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file-raw",
+    "source": "~/.config/fastfetch/ascii/dota2-gradient.txt",
+    "width": 22,
+    "height": 12,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": ""
+  },
+  "modules": [
+    "break",
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 0"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 1"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 2"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 3"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 4"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 5"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 6"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 7"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 8"
+    },
+    {
+      "type": "command",
+      "key": " ",
+      "text": "~/.config/fastfetch/dota.sh 9"
+    }
+  ]
+}
