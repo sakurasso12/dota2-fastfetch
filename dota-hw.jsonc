@@ -1,0 +1,2 @@
+{"logo":{"type":"none"},"display":{"separator":"","key":{"type":"none"}},
+ "modules":[{"type":"cpu","key":" ","format":"CPU|{name}"},{"type":"gpu","key":" ","format":"GPU|{type}|{vendor}|{name}"}]}

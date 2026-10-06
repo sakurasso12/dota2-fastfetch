@@ -9,7 +9,8 @@ if [ -f "$dst/config.jsonc" ]; then
   echo "Old config backed up in $dst"
 fi
 cp "$src/config.jsonc" "$dst/config.jsonc"
-cp "$src/dota.sh" "$dst/dota.sh"
+cp "$src/dota.sh" "$src/dota-hw.jsonc" "$dst/"
+rm -f "${XDG_CACHE_HOME:-$HOME/.cache}/dota-fastfetch/hw"   # re-detect hardware
 cp "$src/ascii/dota2.txt" "$src/ascii/dota2-gradient.txt" "$dst/ascii/"
 chmod +x "$dst/dota.sh"
 echo "Done. Run: fastfetch"
